@@ -26,3 +26,4 @@ def whoami():
     client = request.headers.get("X-Real-IP", "none")
     host = request.headers.get("Host", "none")
     return f"scheme: {scheme}\nclient: {client}\nhost: {host}\n"
+# KR2 variant 4
